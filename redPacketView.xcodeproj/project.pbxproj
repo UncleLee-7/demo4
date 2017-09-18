@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DA7D7A1F6FCF9500205E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D791F6FCF9500205E30 /* main.m */; };
+		85DA7D7D1F6FCF9500205E30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D7C1F6FCF9500205E30 /* AppDelegate.m */; };
+		85DA7D801F6FCF9500205E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D7F1F6FCF9500205E30 /* ViewController.m */; };
+		85DA7D831F6FCF9500205E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D811F6FCF9500205E30 /* Main.storyboard */; };
+		85DA7D851F6FCF9500205E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D841F6FCF9500205E30 /* Assets.xcassets */; };
+		85DA7D881F6FCF9500205E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */; };
+		85DA7D931F6FCF9500205E30 /* redPacketViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */; };
+		85DA7D9E1F6FCF9600205E30 /* redPacketViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85DA7D8F1F6FCF9500205E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DA7D6D1F6FCF9500205E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DA7D741F6FCF9500205E30;
+			remoteInfo = redPacketView;
+		};
+		85DA7D9A1F6FCF9600205E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DA7D6D1F6FCF9500205E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DA7D741F6FCF9500205E30;
+			remoteInfo = redPacketView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85DA7D751F6FCF9500205E30 /* redPacketView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redPacketView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DA7D791F6FCF9500205E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85DA7D7B1F6FCF9500205E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85DA7D7C1F6FCF9500205E30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85DA7D7E1F6FCF9500205E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85DA7D7F1F6FCF9500205E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85DA7D821F6FCF9500205E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DA7D841F6FCF9500205E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85DA7D871F6FCF9500205E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DA7D891F6FCF9500205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DA7D8E1F6FCF9500205E30 /* redPacketViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketViewTests.m; sourceTree = "<group>"; };
+		85DA7D941F6FCF9600205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DA7D991F6FCF9600205E30 /* redPacketViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketViewUITests.m; sourceTree = "<group>"; };
+		85DA7D9F1F6FCF9600205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DA7D721F6FCF9500205E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D8B1F6FCF9500205E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D961F6FCF9600205E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85DA7D6C1F6FCF9500205E30 = {
+			isa = PBXGroup;
+			children = (
+				85DA7D771F6FCF9500205E30 /* redPacketView */,
+				85DA7D911F6FCF9500205E30 /* redPacketViewTests */,
+				85DA7D9C1F6FCF9600205E30 /* redPacketViewUITests */,
+				85DA7D761F6FCF9500205E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85DA7D761F6FCF9500205E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DA7D751F6FCF9500205E30 /* redPacketView.app */,
+				85DA7D8E1F6FCF9500205E30 /* redPacketViewTests.xctest */,
+				85DA7D991F6FCF9600205E30 /* redPacketViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DA7D771F6FCF9500205E30 /* redPacketView */ = {
+			isa = PBXGroup;
+			children = (
+				85DA7D7B1F6FCF9500205E30 /* AppDelegate.h */,
+				85DA7D7C1F6FCF9500205E30 /* AppDelegate.m */,
+				85DA7D7E1F6FCF9500205E30 /* ViewController.h */,
+				85DA7D7F1F6FCF9500205E30 /* ViewController.m */,
+				85DA7D811F6FCF9500205E30 /* Main.storyboard */,
+				85DA7D841F6FCF9500205E30 /* Assets.xcassets */,
+				85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */,
+				85DA7D891F6FCF9500205E30 /* Info.plist */,
+				85DA7D781F6FCF9500205E30 /* Supporting Files */,
+			);
+			path = redPacketView;
+			sourceTree = "<group>";
+		};
+		85DA7D781F6FCF9500205E30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DA7D791F6FCF9500205E30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DA7D911F6FCF9500205E30 /* redPacketViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */,
+				85DA7D941F6FCF9600205E30 /* Info.plist */,
+			);
+			path = redPacketViewTests;
+			sourceTree = "<group>";
+		};
+		85DA7D9C1F6FCF9600205E30 /* redPacketViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */,
+				85DA7D9F1F6FCF9600205E30 /* Info.plist */,
+			);
+			path = redPacketViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DA7D741F6FCF9500205E30 /* redPacketView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DA7DA21F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketView" */;
+			buildPhases = (
+				85DA7D711F6FCF9500205E30 /* Sources */,
+				85DA7D721F6FCF9500205E30 /* Frameworks */,
+				85DA7D731F6FCF9500205E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redPacketView;
+			productName = redPacketView;
+			productReference = 85DA7D751F6FCF9500205E30 /* redPacketView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85DA7D8D1F6FCF9500205E30 /* redPacketViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DA7DA51F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewTests" */;
+			buildPhases = (
+				85DA7D8A1F6FCF9500205E30 /* Sources */,
+				85DA7D8B1F6FCF9500205E30 /* Frameworks */,
+				85DA7D8C1F6FCF9500205E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DA7D901F6FCF9500205E30 /* PBXTargetDependency */,
+			);
+			name = redPacketViewTests;
+			productName = redPacketViewTests;
+			productReference = 85DA7D8E1F6FCF9500205E30 /* redPacketViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85DA7D981F6FCF9600205E30 /* redPacketViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DA7DA81F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewUITests" */;
+			buildPhases = (
+				85DA7D951F6FCF9600205E30 /* Sources */,
+				85DA7D961F6FCF9600205E30 /* Frameworks */,
+				85DA7D971F6FCF9600205E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DA7D9B1F6FCF9600205E30 /* PBXTargetDependency */,
+			);
+			name = redPacketViewUITests;
+			productName = redPacketViewUITests;
+			productReference = 85DA7D991F6FCF9600205E30 /* redPacketViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DA7D6D1F6FCF9500205E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YJGX;
+				TargetAttributes = {
+					85DA7D741F6FCF9500205E30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					85DA7D8D1F6FCF9500205E30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DA7D741F6FCF9500205E30;
+					};
+					85DA7D981F6FCF9600205E30 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DA7D741F6FCF9500205E30;
+					};
+				};
+			};
+			buildConfigurationList = 85DA7D701F6FCF9500205E30 /* Build configuration list for PBXProject "redPacketView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DA7D6C1F6FCF9500205E30;
+			productRefGroup = 85DA7D761F6FCF9500205E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DA7D741F6FCF9500205E30 /* redPacketView */,
+				85DA7D8D1F6FCF9500205E30 /* redPacketViewTests */,
+				85DA7D981F6FCF9600205E30 /* redPacketViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DA7D731F6FCF9500205E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA7D881F6FCF9500205E30 /* LaunchScreen.storyboard in Resources */,
+				85DA7D851F6FCF9500205E30 /* Assets.xcassets in Resources */,
+				85DA7D831F6FCF9500205E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D8C1F6FCF9500205E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D971F6FCF9600205E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DA7D711F6FCF9500205E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA7D801F6FCF9500205E30 /* ViewController.m in Sources */,
+				85DA7D7D1F6FCF9500205E30 /* AppDelegate.m in Sources */,
+				85DA7D7A1F6FCF9500205E30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D8A1F6FCF9500205E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA7D931F6FCF9500205E30 /* redPacketViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DA7D951F6FCF9600205E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA7D9E1F6FCF9600205E30 /* redPacketViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85DA7D901F6FCF9500205E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DA7D741F6FCF9500205E30 /* redPacketView */;
+			targetProxy = 85DA7D8F1F6FCF9500205E30 /* PBXContainerItemProxy */;
+		};
+		85DA7D9B1F6FCF9600205E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DA7D741F6FCF9500205E30 /* redPacketView */;
+			targetProxy = 85DA7D9A1F6FCF9600205E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85DA7D811F6FCF9500205E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DA7D821F6FCF9500205E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DA7D871F6FCF9500205E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DA7DA01F6FCF9600205E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85DA7DA11F6FCF9600205E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DA7DA31F6FCF9600205E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redPacketView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85DA7DA41F6FCF9600205E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redPacketView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85DA7DA61F6FCF9600205E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redPacketViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redPacketView.app/redPacketView";
+			};
+			name = Debug;
+		};
+		85DA7DA71F6FCF9600205E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redPacketViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redPacketView.app/redPacketView";
+			};
+			name = Release;
+		};
+		85DA7DA91F6FCF9600205E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redPacketViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redPacketView;
+			};
+			name = Debug;
+		};
+		85DA7DAA1F6FCF9600205E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redPacketViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redPacketView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DA7D701F6FCF9500205E30 /* Build configuration list for PBXProject "redPacketView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DA7DA01F6FCF9600205E30 /* Debug */,
+				85DA7DA11F6FCF9600205E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DA7DA21F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DA7DA31F6FCF9600205E30 /* Debug */,
+				85DA7DA41F6FCF9600205E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DA7DA51F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DA7DA61F6FCF9600205E30 /* Debug */,
+				85DA7DA71F6FCF9600205E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DA7DA81F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DA7DA91F6FCF9600205E30 /* Debug */,
+				85DA7DAA1F6FCF9600205E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DA7D6D1F6FCF9500205E30 /* Project object */;
+}
