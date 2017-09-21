@@ -13,8 +13,9 @@
 		85DA7D831F6FCF9500205E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D811F6FCF9500205E30 /* Main.storyboard */; };
 		85DA7D851F6FCF9500205E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D841F6FCF9500205E30 /* Assets.xcassets */; };
 		85DA7D881F6FCF9500205E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */; };
-		85DA7D931F6FCF9500205E30 /* redPacketViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */; };
-		85DA7D9E1F6FCF9600205E30 /* redPacketViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */; };
+		85DA7DAD1F6FCFA900205E30 /* RedPacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7DAC1F6FCFA900205E30 /* RedPacketView.m */; };
+		85DA7DAF1F6FCFB600205E30 /* RedPacketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85DA7DAE1F6FCFB600205E30 /* RedPacketView.xib */; };
+		85DA7DB21F6FD48B00205E30 /* UIView+LYCViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA7DB11F6FD48B00205E30 /* UIView+LYCViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +47,12 @@
 		85DA7D871F6FCF9500205E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85DA7D891F6FCF9500205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DA7D8E1F6FCF9500205E30 /* redPacketViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketViewTests.m; sourceTree = "<group>"; };
-		85DA7D941F6FCF9600205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85DA7D991F6FCF9600205E30 /* redPacketViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketViewUITests.m; sourceTree = "<group>"; };
-		85DA7D9F1F6FCF9600205E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DA7DAB1F6FCFA900205E30 /* RedPacketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketView.h; sourceTree = "<group>"; };
+		85DA7DAC1F6FCFA900205E30 /* RedPacketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketView.m; sourceTree = "<group>"; };
+		85DA7DAE1F6FCFB600205E30 /* RedPacketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedPacketView.xib; sourceTree = "<group>"; };
+		85DA7DB01F6FD48B00205E30 /* UIView+LYCViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCViewExtension.h"; sourceTree = "<group>"; };
+		85DA7DB11F6FD48B00205E30 /* UIView+LYCViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCViewExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,12 @@
 		85DA7D6C1F6FCF9500205E30 = {
 			isa = PBXGroup;
 			children = (
+				85DA7D811F6FCF9500205E30 /* Main.storyboard */,
+				85DA7D841F6FCF9500205E30 /* Assets.xcassets */,
+				85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */,
+				85DA7D891F6FCF9500205E30 /* Info.plist */,
+				85DA7D781F6FCF9500205E30 /* Supporting Files */,
 				85DA7D771F6FCF9500205E30 /* redPacketView */,
-				85DA7D911F6FCF9500205E30 /* redPacketViewTests */,
-				85DA7D9C1F6FCF9600205E30 /* redPacketViewUITests */,
 				85DA7D761F6FCF9500205E30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,15 +106,15 @@
 		85DA7D771F6FCF9500205E30 /* redPacketView */ = {
 			isa = PBXGroup;
 			children = (
+				85DA7DB01F6FD48B00205E30 /* UIView+LYCViewExtension.h */,
+				85DA7DB11F6FD48B00205E30 /* UIView+LYCViewExtension.m */,
 				85DA7D7B1F6FCF9500205E30 /* AppDelegate.h */,
 				85DA7D7C1F6FCF9500205E30 /* AppDelegate.m */,
 				85DA7D7E1F6FCF9500205E30 /* ViewController.h */,
 				85DA7D7F1F6FCF9500205E30 /* ViewController.m */,
-				85DA7D811F6FCF9500205E30 /* Main.storyboard */,
-				85DA7D841F6FCF9500205E30 /* Assets.xcassets */,
-				85DA7D861F6FCF9500205E30 /* LaunchScreen.storyboard */,
-				85DA7D891F6FCF9500205E30 /* Info.plist */,
-				85DA7D781F6FCF9500205E30 /* Supporting Files */,
+				85DA7DAB1F6FCFA900205E30 /* RedPacketView.h */,
+				85DA7DAC1F6FCFA900205E30 /* RedPacketView.m */,
+				85DA7DAE1F6FCFB600205E30 /* RedPacketView.xib */,
 			);
 			path = redPacketView;
 			sourceTree = "<group>";
@@ -120,24 +125,7 @@
 				85DA7D791F6FCF9500205E30 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		85DA7D911F6FCF9500205E30 /* redPacketViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				85DA7D921F6FCF9500205E30 /* redPacketViewTests.m */,
-				85DA7D941F6FCF9600205E30 /* Info.plist */,
-			);
-			path = redPacketViewTests;
-			sourceTree = "<group>";
-		};
-		85DA7D9C1F6FCF9600205E30 /* redPacketViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				85DA7D9D1F6FCF9600205E30 /* redPacketViewUITests.m */,
-				85DA7D9F1F6FCF9600205E30 /* Info.plist */,
-			);
-			path = redPacketViewUITests;
+			path = redPacketView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +195,7 @@
 				TargetAttributes = {
 					85DA7D741F6FCF9500205E30 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W7P3U25822;
 						ProvisioningStyle = Automatic;
 					};
 					85DA7D8D1F6FCF9500205E30 = {
@@ -246,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DA7DAF1F6FCFB600205E30 /* RedPacketView.xib in Resources */,
 				85DA7D881F6FCF9500205E30 /* LaunchScreen.storyboard in Resources */,
 				85DA7D851F6FCF9500205E30 /* Assets.xcassets in Resources */,
 				85DA7D831F6FCF9500205E30 /* Main.storyboard in Resources */,
@@ -273,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DA7DB21F6FD48B00205E30 /* UIView+LYCViewExtension.m in Sources */,
+				85DA7DAD1F6FCFA900205E30 /* RedPacketView.m in Sources */,
 				85DA7D801F6FCF9500205E30 /* ViewController.m in Sources */,
 				85DA7D7D1F6FCF9500205E30 /* AppDelegate.m in Sources */,
 				85DA7D7A1F6FCF9500205E30 /* main.m in Sources */,
@@ -283,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DA7D931F6FCF9500205E30 /* redPacketViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DA7D9E1F6FCF9600205E30 /* redPacketViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +347,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -406,6 +397,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -426,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = redPacketView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 			};
 			name = Debug;
 		};
@@ -437,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7P3U25822;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				INFOPLIST_FILE = redPacketView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YJ.redPacketView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 			};
 			name = Release;
 		};
@@ -509,6 +507,7 @@
 				85DA7DA41F6FCF9600205E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85DA7DA51F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +516,7 @@
 				85DA7DA71F6FCF9600205E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85DA7DA81F6FCF9600205E30 /* Build configuration list for PBXNativeTarget "redPacketViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +525,7 @@
 				85DA7DAA1F6FCF9600205E30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
